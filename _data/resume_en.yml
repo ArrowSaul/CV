@@ -33,7 +33,7 @@ main:
   name: Education
   content:
   - title: Zhengzhou University of Light Industry
-    duration: September 2020 - July 2024
+    duration: September 2022 - July 2026
     sub: Undergraduate
     detail: Vehicle Engineering
 - type: skills
@@ -41,14 +41,16 @@ main:
   content:
   - title: Technology Stack and Programming Languages
     items:
+    - SpringBoot
+    - SpringCloud
     - Linux
-    - ROS
     - Docker
-    - Flutter
-    - Fusion360
-    - JLC EDA
+    - RabbitMQ
+    - MySQL
+    - Redis
+    - Git
     - Machine Learning
-    - Programming Languages：C++, Python, Shell
+    - Programming Languages：Java, Python, Sql
   - title: Hardware Skills
     detail:
       1. Familiar with hardware circuit design and development of MCUs such as ESP32, STM32 and Arduino, including PCB design, component selection and manual soldering of surface mount components <br> &nbsp; &numsp;
