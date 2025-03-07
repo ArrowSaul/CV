@@ -1,27 +1,27 @@
 title: "Personal Resume"
 lang: "en"
-name: "Huigang Wang"
+name: "Shuo Wang"
 # jobtitle: "Embedded Software Development"
 photo: "assets/img/photo.png"
 
 #contact information
 contact:
-- text: "huigang39@outlook.com"
-  href: 'email: huigang39@outlook.com'
+- text: "2192595668@qq.com"
+  href: 'email: 2192595668@qq.com'
   icon: 'icons/email.svg'
-- text: "13092723486"
-  href: 'tel:13092723486'
+- text: "13598582025"
+  href: 'tel:13598582025'
   icon: 'icons/phone.svg'
-- text: "huigang39.github.io"
-  href: 'http://huigang39.github.io'
+- text: "arrowsaul.top"
+  href: 'http://arrowsaul.top'
   icon: 'icons/web.svg'
   attr: 'target="_blank"'
-- text: "huigang39"
-  href: 'https://github.com/huigang39'
+- text: "ArrowSaul"
+  href: 'https://github.com/ArrowSaul'
   icon: "icons/github.svg"
   attr: 'target="_blank"'
-- text: "Ikaros39"
-  href: 'https://space.bilibili.com/88637865'
+- text: "Arrow_Saul"
+  href: 'https://space.bilibili.com/197587764'
   icon: "icons/bilibili.svg"
   attr: 'target="_blank"'
   # - text: "Address"
