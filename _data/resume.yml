@@ -54,19 +54,19 @@ main:
           - 编程语言：Java、Python、Sql
       - title: 软件技能
         detail:
-          1. 熟悉Java特性，拥有扎实的Java语⾔功底，牢握Java8多项新特性 <br> &nbsp; &numsp;
-          2. 熟悉Java并发编程，JUC、ThreadLocal、锁，AQS原理，线程池池化技术 <br> &nbsp; &numsp;
-          3. 熟悉JVM，理解类加载机制、双亲委派、字节码执⾏机制、JVM内存模型、GC垃圾回收，常见问题定位调优 <br> &nbsp; &numsp;
-          4. 熟练掌握Redis技术要点和应用，应用于分布式锁、缓存、性能优化等场景下 <br> &nbsp; &numsp;
-          5. 熟悉MySQL操作，对MySQL的底层实现有过研究，熟悉MySQL相关优化，并应用于业务中 <br> &nbsp; &numsp;
-          6. 熟悉常见的设计模式，灵活应用在业务开发中，减少业务代码量，提⾼可读性 <br> &nbsp; &numsp;
-          7. 熟悉RabbitMQ消息队列中间件，并应用于业务逻辑中 <br> &nbsp; &numsp;
-          8. 熟悉⽹络相关知识，熟悉常见的TCP，Http等⽹络协议 <br> &nbsp; &numsp;
-          9. 熟悉Spring，SpringMVC,Mybatis,SpringBoot等核⼼框架，理解基本原理，根据需求熟练开发业务接⼝ <br> &nbsp; &numsp;
-          10. 熟悉SpringCloud，理解分布式微服务基本理论，使用微服务组件Netty,Nacos,Getway,Fegin <br> &nbsp; &numsp;
-          11. 熟悉Docker，容器化部署微服务，基本操作命令，pull拉取中间件进⾏搭建使用 <br> &nbsp; &numsp;
-          12. 熟悉常用Linux命令，使用CentOS等主流操作系统进⾏开发 <br> &nbsp; &numsp;
-          13. 熟练使用Git代码仓库⼯具，Maven,Gradle包管理⼯具，Postman请求响应json⼯具，Swagger接⼝ui⽂档
+          1. 熟悉 Java 特性，拥有扎实的 Java 语言功底，牢握 Java8 多项新特性 <br> &nbsp; &numsp;
+          2. 熟悉 Java 并发编程，JUC、ThreadLocal、锁，AQS 原理，线程池池化技术 <br> &nbsp; &numsp;
+          3. 熟悉 JVM ，理解类加载机制、双亲委派、字节码执行机制、JVM 内存模型、GC垃圾回收，常见问题定位调优 <br> &nbsp; &numsp;
+          4. 熟练掌握 Redis 技术要点和应用，应用于分布式锁、缓存、性能优化等场景下 <br> &nbsp; &numsp;
+          5. 熟悉 MySQL 操作，对 MySQL 的底层实现有过研究，熟悉 MySQL 相关优化，并应用于业务中 <br> &nbsp; &numsp;
+          6. 熟悉常见的设计模式，灵活应用在业务开发中，减少业务代码量，提高可读性 <br> &nbsp; &numsp;
+          7. 熟悉 RabbitMQ 消息队列中间件，并应用于业务逻辑中 <br> &nbsp; &numsp;
+          8. 熟悉网络相关知识，熟悉常见的 TCP，Http 等网络协议 <br> &nbsp; &numsp;
+          9. 熟悉 Spring，SpringMVC，Mybatis，SpringBoot 等核心框架，理解基本原理，根据需求熟练开发业务接口 <br> &nbsp; &numsp;
+          10. 熟悉 SpringCloud，理解分布式微服务基本理论，使用微服务组件 Netty,Nacos,Getway,Fegin <br> &nbsp; &numsp;
+          11. 熟悉 Docker，容器化部署微服务，基本操作命令，pull 拉取中间件进行搭建使用 <br> &nbsp; &numsp;
+          12. 熟悉常用 Linux 命令，使用 CentOS 等主流操作系统进行开发 <br> &nbsp; &numsp;
+          13. 熟练使用 Git 代码仓库工具，Maven，Gradle 包管理工具，Postman 请求响应 json 工具，Swagger 接口 Ui 文档
       - title: 其他技能
         detail:
           1. 熟悉各种开源平台与软件资源，有独立开发单体架构项目的能力 <br> &nbsp; &numsp;
