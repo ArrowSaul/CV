@@ -1,120 +1,193 @@
-# 数据格式可以为 yaml(文件以.yml结尾) 或者json(文件以.json结尾)
-# 如果YAML格式的数据请先检查格式是否有误，可选检查工具 http://www.yamllint.com
-
-title: "简历标题"
-lang: "zh" #语言设置 zh表示中文 en 表示英语
-name: "你的名字"
-jobtitle: "求职意向" #可空不显示
-photo: "assets/img/photo.jpg" #照片可空，不显示
+title: "个人简历"
+lang: "zh"
+name: "王硕"
+jobtitle: "Java后端开发"
+photo: "assets/img/证件照.png"
 
 #联系方式
-contact: #联系方式连接等3~5行
-- text: "youremail@example.com" #文本内容
-  href: 'mailto:youremail@example.com' #链接，无链接则空  
-  icon: 'icons/email.svg' #图标 svg文件
-- text: "1234567890"
-  href: 'tel:1234567890'
-  icon: 'icons/phone.svg'
-- text: "your-website.com"
-  href: 'http://your-website.com'
-  icon: 'icons/web.svg'
-- text: "GitHubID"
-  href: 'https://github.com/NewFuture'
-  icon: "icons/github.svg"
-  attr: 'target="_blank"' #新标签页打开
-  # - text: "地址"
-  #   icon: "icons/location.svg"
+contact:
+  - text: "2192595668@qq.com"
+    href: "email: 2192595668@qq.com"
+    icon: "icons/email.svg"
+  - text: "13598582025"
+    href: "tel:13598582025"
+    icon: "icons/phone.svg"
+  - text: "arrowsaul.top"
+    href: "http://arrowsaul.top"
+    icon: "icons/web.svg"
+    attr: 'target="_blank"'
+  - text: "ArrowSaul"
+    href: "https://github.com/ArrowSaul"
+    icon: "icons/github.svg"
+    attr: 'target="_blank"'
+  - text: "Arrow_Saul"
+    href: "https://space.bilibili.com/197587764"
+    icon: "icons/bilibili.svg"
+    attr: 'target="_blank"'
+    # - text: "地址"
+    #   icon: "icons/location.svg"
 
 #main下面是主体内容，类别条数不限
-main: #简历主要内容，
-- type: education #类别为ID
-  name: 教育 #显示名称，空则使用type
-  content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: 大学名称
-    duration: "2011年x月 - 2015年"
-    sub: 地点或学历
-    detail: 专业或者简短说明
-  - title: Your University
-    duration: Aug 2007 - Jun 2011
-    sub: Ut enim ad minim veniam
-    detail: Master Bachelor of Computer Science & Technology.
+main:
+  - type: education
+    name: 教育
+    content:
+      - title: 郑州轻工业大学
+        duration: 2022 年 09 月 - 至今
+        sub: 本科
+        detail: 软件工程
 
-- type: skills
-  # name: "技能"
-  content:
-  - title: 编程语言
-    items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
+  - type: skills
+    name: 技能
+    content:
+      - title: 技术栈和编程语言
+        items:
+          - SpringBoot
+          - SpringCloud
+          - Linux
+          - Docker
+          - RabbitMQ
+          - MySQL
+          - Redis
+          - Git
+          - ML/DL（机器/深度学习）
+          - 编程语言：Java、Python、Sql
+      - title: 软件技能
+        detail:
+          1. 熟悉Java特性，拥有扎实的Java语⾔功底，牢握Java8多项新特性 <br> &nbsp; &numsp;
+          2. 熟悉Java并发编程，JUC、ThreadLocal、锁，AQS原理，线程池池化技术 <br> &nbsp; &numsp;
+          3. 熟悉JVM，理解类加载机制、双亲委派、字节码执⾏机制、JVM内存模型、GC垃圾回收，常见问题定位调优 <br> &nbsp; &numsp;
+          4. 熟练掌握Redis技术要点和应用，应用于分布式锁、缓存、性能优化等场景下 <br> &nbsp; &numsp;
+          5. 熟悉MySQL操作，对MySQL的底层实现有过研究，熟悉MySQL相关优化，并应用于业务中 <br> &nbsp; &numsp;
+          6. 熟悉常见的设计模式，灵活应用在业务开发中，减少业务代码量，提⾼可读性 <br> &nbsp; &numsp;
+          7. 熟悉RabbitMQ消息队列中间件，并应用于业务逻辑中 <br> &nbsp; &numsp;
+          8. 熟悉⽹络相关知识，熟悉常见的TCP，Http等⽹络协议 <br> &nbsp; &numsp;
+          9. 熟悉Spring，SpringMVC,Mybatis,SpringBoot等核⼼框架，理解基本原理，根据需求熟练开发业务接⼝ <br> &nbsp; &numsp;
+          10. 熟悉SpringCloud，理解分布式微服务基本理论，使用微服务组件Netty,Nacos,Getway,Fegin <br> &nbsp; &numsp;
+          11. 熟悉Docker，容器化部署微服务，基本操作命令，pull拉取中间件进⾏搭建使用 <br> &nbsp; &numsp;
+          12. 熟悉常用Linux命令，使用CentOS等主流操作系统进⾏开发 <br> &nbsp; &numsp;
+          13. 熟练使用Git代码仓库⼯具，Maven,Gradle包管理⼯具，Postman请求响应json⼯具，Swagger接⼝ui⽂档
+      - title: 其他技能
+        detail:
+          1. 熟悉各种开源平台与软件资源，有独立开发单体架构项目的能力 <br> &nbsp; &numsp;
+          2. 良好的专业英语文档和资料阅读和使用能力 <br> &nbsp; &numsp;
+          3. 较强的信息检索能力，能够快速学习新技术与开发环境，适应不同项目需求 <br> &nbsp; &numsp;
+          4. 一定的沟通表达能力，能够与不同技术背景的人交流技术问题和方案
 
-- type: experience
-  name: 经验
-  content:
-  - title: 职位
-    sub: 某某公司
-    duration: "xxxx年xx月 - yyyy年yy月"
-    tags:
-    - 标签
-    summary: 职务或者工作总结(自动折叠)
-    detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
-    # open: open
-    #可以设置open默认展开
-  - title: Job Title
-    sub: Your 2nd, Inc.  
-    duration: Apr 2013 - Mar 2016
-    tags: 
-    - tagname
-    summary: Summary your job or work. (Collapse)
-    detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  - type: experience
+    name: 经历
+    content:
+      - title: 梅科尔工作室（Maker Studio）
+        duration: 2022 年 09 月 - 2024 年 07 月
+        tags:
+          - 学校组织
+        summary: 副组长，项目负责人
+        detail: 负责工作室物联网及大数据组的管理事务（人员、物品、培训等），和软件组的部分事务，先后担任多个项目的负责人。
+        # open: open
+      - title: 河南千唯电子科技有限公司
+        duration: 2024 年 07 月 - 2024 年 09 月
+        tags:
+          - 互联网公司
+        summary: 实习生，项目成员
+        detail: 参与偶然打卡微信小程序及偶然俱乐部后台管理系统的项目开发，负责项目中后端业务设计与开发，数据库设计，负责基于若依框架的后台管理系统开发维护，参与开发。
 
-- type: projects
-  name: Projects
-  content:
-  - title: 项目名称
-    duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
-    sub: 维护者
-  - title: Project Name
-    summary: Projects' introduction or summary
-    detail:
-      md: _data/demo.md
-    sub: Creator and maintainer.
-   #可继续添加更多内容
+# #others 其他简略内容(列表)
+# others: #其他列表显示
+  - type: others #ID可以为空
+    name: 其他
+    content: #选择需要的格式
+      - title: 兴趣：
+        items: #单行列表
+          - 数码
+          - 阅读
+          - 音乐
+          - 动漫
+          - 旅游
+      - title: MBTI：
+        items: INTP - 逻辑学家
+      - title: 奖项
+        detail:
+         md: _data/prize.md 
 
-#others 其他简略内容(列表)
-others: #其他列表显示
-- type: others #ID可以为空
-  name: '其他'
-  content: #选择需要的格式
-  - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
-  - title: "兴趣:"
-    items: #单行列表
-    - 睡觉
-    - 吃饭
-    - coding
-  - title: 列表
-    list:
-    - 第一项
-    - 第二项
-#- type: 
+  - type: projects
+    name: 项目
+    content:
+      - title: 用于下肢动脉硬化患者的坐站转换康复系统
+        duration: 1 年
+        summary: 辅助脑卒中患者完成坐站转换康复过程，并采用惯性动作捕捉技术采集患者的康复运动姿态，结合康复评估系统进行康复疗程的评估。
+        detail:
+          md: _data/STS.md
+        sub: 软件开发&结构设计负责人
+        tags:
+          - IMU 惯性动作捕捉
+          - OpenPose 人体姿态识别
+          - Neo4j 图数据库
+      - title: 基于多模态信息融合的上肢康复训练评估系统
+        duration: 4 个月
+        summary: 用于脑卒中患者的主被动式上肢康复训练评估系统，在辅助脑卒中患者执行康复训练运动的同时会对训练结果进行定量评估。
+        detail:
+          md: _data/REAS.md
+        sub: 项目负责人
+        tags:
+          - IMU 惯性传感器
+          - 数据处理与分析
+          - 姿态解算
+          - 深度学习
+      - title: 基于阻抗控制的柔性驱动系统
+        duration: 3 个月
+        summary: 从物理和软件层面实现对机器人柔顺运动性能的控制，并通过改变期望动态特性以满足不同交互操作任务的柔顺性需求。
+        detail:
+          md: _data/SEA.md
+        sub: 项目负责人
+        tags:
+          - FOC 电机控制
+          - SEA 柔性驱动器
+      # - title: 基于车路云的智慧城市交通灯信控系统
+      #   duration: 5个月
+      #   summary: 通过摄像头监测城市道路中车辆运行情况及数据，自适应优化交通灯调度，对于城市管理部门提供数字孪生监控系统，可实时查看城市交通的运行情况。
+      #   detail:
+      #     md: _data/demo.md
+      #   sub: 算法开发&硬件开发负责人
+      #   tags:
+      #     - SUMO微观交通仿真
+      #     - Unity3D数字孪生
+      #     - TinyML嵌入式AI
+      #     - ESP32开发
+      # - title: 基于摩擦纳米发电的驾驶行为检测评估系统
+      #   duration: 3 个月
+      #   summary: 利用摩擦纳米发电机特性，可将不同类型的机械信号转换为电信号，通过 CNN 卷积神经网络分析大量电信号数据以实现不同场景的分类和预测。
+      #   detail:
+      #     md: _data/TENG.md
+      #   sub: 项目负责人
+      #   tags:
+      #     - 自供电传感器
+      #     - ESP32 开发
+      #     - 深度学习
+      - title: 上海巨翊公司项目：超级磁刺激仪（磁休克）
+        duration: 2 个月
+        summary: 刺激线圈产生的高频率、高强度脉冲磁场透过头皮和颅骨，在大脑皮层的目标区域产生感应电流，引起局灶性抽搐发作，干预脑代谢和神经电活动，达到治疗疾病的目的。
+        detail:
+          md: _data/heron.md
+        sub: 项目实习生
+        tags:
+          - STM32 开发
+          - 数据处理
+          - Linux 应用开发
+
+#- type:
 #  name: '其他'
 #  content: #选择需要的格式
 #  - 单行文字
 #  - 如果有可以继续添加
 
-#footer 脚注，打印版和web版不同不显示    
+#footer 脚注，打印版和web版不同不显示
 footer: #脚注多组
   print: #打印版markdown或者html
   screen:
-  - text: "简历脚注"
-  #   href: '/'
-  - text: "Made with &hearts; by NewFuture"
-    href: "https://github.com/NewFuture/CV/"
+    - text: "简历脚注"
+    #   href: '/'
+    - text: "更多个人信息请访问博客"
+      href: "https://arrowsaul.top"
 
 #页面额外js脚本，如xx统计
 scripts:
