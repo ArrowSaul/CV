@@ -55,7 +55,7 @@ main:
       - title: 软件技能
         detail:
           1. 熟悉 Java 特性，拥有扎实的 Java 语言功底，牢握 Java8 多项新特性 <br> &nbsp; &numsp;
-          2. 熟悉 Java 并发编程，JUC、ThreadLocal、锁，AQS 原理，线程池池化技术 <br> &nbsp; &numsp;
+          2. 熟悉 Java 并发编程，JU、ThreadLocal、锁，AQS 原理，线程池池化技术 <br> &nbsp; &numsp;
           3. 熟悉 JVM ，理解类加载机制、双亲委派、字节码执行机制、JVM 内存模型、GC垃圾回收，常见问题定位调优 <br> &nbsp; &numsp;
           4. 熟练掌握 Redis 技术要点和应用，应用于分布式锁、缓存、性能优化等场景下 <br> &nbsp; &numsp;
           5. 熟悉 MySQL 操作，对 MySQL 的底层实现有过研究，熟悉 MySQL 相关优化，并应用于业务中 <br> &nbsp; &numsp;
@@ -81,7 +81,7 @@ main:
         duration: 2022 年 09 月 - 2024 年 07 月
         tags:
           - 学校组织
-        summary: 副组长，项目负责人
+        summary: 后端负责人，项目负责人
         detail: 负责工作室物联网及大数据组的管理事务（人员、物品、培训等），和软件组的部分事务，先后担任多个项目的负责人。
         # open: open
       - title: 河南千唯电子科技有限公司
@@ -113,73 +113,44 @@ main:
     name: 项目
     content:
       - title: 用于下肢动脉硬化患者的坐站转换康复系统
-        duration: 1 年
+        duration: 3 个月
         summary: 辅助脑卒中患者完成坐站转换康复过程，并采用惯性动作捕捉技术采集患者的康复运动姿态，结合康复评估系统进行康复疗程的评估。
         detail:
-          md: _data/STS.md
-        sub: 软件开发&结构设计负责人
+          md: _data/AR.md
+        sub: 软件开发&设计负责人
         tags:
-          - IMU 惯性动作捕捉
-          - OpenPose 人体姿态识别
-          - Neo4j 图数据库
+          - SpringBoot
+          - Mybatis-Plus
+          - Mysql 
       - title: 基于多模态信息融合的上肢康复训练评估系统
         duration: 4 个月
         summary: 用于脑卒中患者的主被动式上肢康复训练评估系统，在辅助脑卒中患者执行康复训练运动的同时会对训练结果进行定量评估。
         detail:
-          md: _data/REAS.md
+          md: _data/BR.md
         sub: 项目负责人
         tags:
-          - IMU 惯性传感器
-          - 数据处理与分析
-          - 姿态解算
-          - 深度学习
-      - title: 基于阻抗控制的柔性驱动系统
-        duration: 3 个月
-        summary: 从物理和软件层面实现对机器人柔顺运动性能的控制，并通过改变期望动态特性以满足不同交互操作任务的柔顺性需求。
+          - SpringBoot
+          - HarmonyOS
+      - title: 碳效智控办公节能管家
+        duration: 6 个月
+        summary: 项目针对性解决企业碳核算能力不足、缺少智控系统及交易机制不透明问题，有助于建筑特别是办公场所降耗能和碳足迹，支持国家"碳达峰"、"碳中和"目标。
         detail:
-          md: _data/SEA.md
+          md: _data/IOT.md
         sub: 项目负责人
         tags:
           - FOC 电机控制
           - SEA 柔性驱动器
-      # - title: 基于车路云的智慧城市交通灯信控系统
-      #   duration: 5个月
-      #   summary: 通过摄像头监测城市道路中车辆运行情况及数据，自适应优化交通灯调度，对于城市管理部门提供数字孪生监控系统，可实时查看城市交通的运行情况。
-      #   detail:
-      #     md: _data/demo.md
-      #   sub: 算法开发&硬件开发负责人
-      #   tags:
-      #     - SUMO微观交通仿真
-      #     - Unity3D数字孪生
-      #     - TinyML嵌入式AI
-      #     - ESP32开发
-      # - title: 基于摩擦纳米发电的驾驶行为检测评估系统
-      #   duration: 3 个月
-      #   summary: 利用摩擦纳米发电机特性，可将不同类型的机械信号转换为电信号，通过 CNN 卷积神经网络分析大量电信号数据以实现不同场景的分类和预测。
-      #   detail:
-      #     md: _data/TENG.md
-      #   sub: 项目负责人
-      #   tags:
-      #     - 自供电传感器
-      #     - ESP32 开发
-      #     - 深度学习
-      - title: 上海巨翊公司项目：超级磁刺激仪（磁休克）
+      - title: 河南千唯电子科技有限公司实习项目：偶然俱乐部系统
         duration: 2 个月
-        summary: 刺激线圈产生的高频率、高强度脉冲磁场透过头皮和颅骨，在大脑皮层的目标区域产生感应电流，引起局灶性抽搐发作，干预脑代谢和神经电活动，达到治疗疾病的目的。
+        summary: 偶然俱乐部后台管理系统：帮助俱乐部管理人员进行活动下发以及审核；人力，外联，部门，物品，财务管理。偶然打卡小程序：帮助偶然俱乐部成员考勤打卡，积分奖励，奖品兑换。
         detail:
-          md: _data/heron.md
+          md: _data/CLUB.md
         sub: 项目实习生
         tags:
-          - STM32 开发
-          - 数据处理
-          - Linux 应用开发
-
-#- type:
-#  name: '其他'
-#  content: #选择需要的格式
-#  - 单行文字
-#  - 如果有可以继续添加
-
+          - SpringBoot
+          - Vue
+          - ruoyi
+          
 #footer 脚注，打印版和web版不同不显示
 footer: #脚注多组
   print: #打印版markdown或者html
