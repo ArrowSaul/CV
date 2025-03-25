@@ -63,10 +63,10 @@ main:
           7. 熟悉 RabbitMQ 消息队列中间件，并应用于业务逻辑中 <br> &nbsp; &numsp;
           8. 熟悉网络相关知识，熟悉常见的 TCP，Http 等网络协议 <br> &nbsp; &numsp;
           9. 熟悉 Spring，SpringMVC，Mybatis，SpringBoot 等核心框架，理解基本原理，根据需求熟练开发业务接口 <br> &nbsp; &numsp;
-          10. 熟悉 SpringCloud，理解分布式微服务基本理论，使用微服务组件 Netty,Nacos,Getway,Fegin <br> &nbsp; &numsp;
+          10. 熟悉 SpringCloud，理解分布式微服务基本理论，使用微服务组件 Nacos,Getway,Fegin <br> &nbsp; &numsp;
           11. 熟悉 Docker，容器化部署微服务，基本操作命令，pull 拉取中间件进行搭建使用 <br> &nbsp; &numsp;
           12. 熟悉常用 Linux 命令，使用 CentOS 等主流操作系统进行开发 <br> &nbsp; &numsp;
-          13. 熟练使用 Git 代码仓库工具，Maven，Gradle 包管理工具，Postman 请求响应 json 工具，Swagger 接口 Ui 文档
+          13. 熟练使用 Git 代码仓库工具，Maven 包管理工具，Postman 请求响应 json 工具，Swagger 接口 Ui 文档
       - title: 其他技能
         detail:
           1. 熟悉各种开源平台与软件资源，有独立开发单体架构项目的能力 <br> &nbsp; &numsp;
@@ -83,21 +83,25 @@ main:
           - 学校组织
         summary: 后端负责人，项目负责人
         detail: 负责工作室物联网及大数据组的管理事务（人员、物品、培训等），和软件组的部分事务，先后担任多个项目的负责人。
-        # open: open
       - title: 河南千唯电子科技有限公司
         duration: 2024 年 07 月 - 2024 年 09 月
         tags:
-          - 互联网公司
+          - 电子科技公司
         summary: 实习生，项目成员
         detail: 参与偶然打卡微信小程序及偶然俱乐部后台管理系统的项目开发，负责项目中后端业务设计与开发，数据库设计，负责基于若依框架的后台管理系统开发维护，参与开发。
+      - title: 广东延康科技有限公司
+        duration: 2024 年 12 月 - 2025 年 02 月
+        tags:
+          - 医疗健康公司
+        summary: 实习生，项目成员
+        detail: 参与云e养小程序及云E养后台管理系统的项目开发，参与项目中后端业务设计与开发，数据库设计，负责基于若依框架的后台管理系统及小程序后端开发及维护。
 
-# #others 其他简略内容(列表)
-# others: #其他列表显示
-  - type: others #ID可以为空
+
+  - type: others
     name: 其他
-    content: #选择需要的格式
+    content:
       - title: 兴趣：
-        items: #单行列表
+        items:
           - 数码
           - 阅读
           - 音乐
@@ -112,55 +116,60 @@ main:
   - type: projects
     name: 项目
     content:
-      - title: 用于下肢动脉硬化患者的坐站转换康复系统
+      - title: 智媒新闻推荐系统
         duration: 3 个月
-        summary: 辅助脑卒中患者完成坐站转换康复过程，并采用惯性动作捕捉技术采集患者的康复运动姿态，结合康复评估系统进行康复疗程的评估。
+        summary: 本项目为新闻资讯推荐系统，旨在为用户提供个性化的新闻阅读体验。项目采用前后端分离架构，后端使用 Spring Boot + Spring Cloud 微服务框架，使用 Kafka、Redis、Elasticsearch 等技术实现海量数据处理和实时推荐。
         detail:
-          md: _data/AR.md
+          md: _data/HM.md
         sub: 软件开发&设计负责人
         tags:
-          - SpringBoot
-          - Mybatis-Plus
-          - Mysql 
-      - title: 基于多模态信息融合的上肢康复训练评估系统
-        duration: 4 个月
-        summary: 用于脑卒中患者的主被动式上肢康复训练评估系统，在辅助脑卒中患者执行康复训练运动的同时会对训练结果进行定量评估。
-        detail:
-          md: _data/BR.md
-        sub: 项目负责人
-        tags:
-          - SpringBoot
-          - HarmonyOS
+          - SpringCloud
+          - Vue
       - title: 碳效智控办公节能管家
         duration: 6 个月
         summary: 项目针对性解决企业碳核算能力不足、缺少智控系统及交易机制不透明问题，有助于建筑特别是办公场所降耗能和碳足迹，支持国家"碳达峰"、"碳中和"目标。
         detail:
           md: _data/IOT.md
-        sub: 项目负责人
+        sub: 后端负责人
         tags:
-          - FOC 电机控制
-          - SEA 柔性驱动器
-      - title: 河南千唯电子科技有限公司实习项目：偶然俱乐部系统
-        duration: 2 个月
-        summary: 偶然俱乐部后台管理系统：帮助俱乐部管理人员进行活动下发以及审核；人力，外联，部门，物品，财务管理。偶然打卡小程序：帮助偶然俱乐部成员考勤打卡，积分奖励，奖品兑换。
+          - SpringBoot
+          - HarmonyOS
+      # - title: 基于多模态信息融合的上肢康复训练评估系统
+      #   duration: 4 个月
+      #   summary: 用于脑卒中患者的主被动式上肢康复训练评估系统，在辅助脑卒中患者执行康复训练运动的同时会对训练结果进行定量评估。
+      #   detail:
+      #     md: _data/BR.md
+      #   sub: 后端负责人
+      #   tags:
+      #     - SpringBoot
+      #     - HarmonyOS
+      - title: 河南千唯电子科技有限公司实习项目：偶然俱乐部数字化服务平台
+        duration: 3 个月
+        summary: 偶然俱乐部后台管理系统：帮助俱乐部管理人员进行活动下发以及审核；人力，外联，部门，物品管理。偶然打卡小程序：帮助偶然俱乐部成员考勤打卡，等级提升，活动通知。
         detail:
           md: _data/CLUB.md
         sub: 项目实习生
         tags:
           - SpringBoot
-          - Vue
+          - Vue，微信小程序
+          - ruoyi
+      - title: 广东延康科技有限公司实习项目：云e养城市智慧医养数字化服务平台
+        duration: 3 个月
+        summary: 云E养后台管理系统：帮助管理人员进行商品上架以及审核；用户，客服，商品，医疗信息管理。云e养小程序：旨在致力于为中老年人提供智能、高效、便捷的健康管理服务：健康监测服务，个性化营养方案定制。
+        detail:
+          md: _data/YEY.md
+        sub: 项目实习生
+        tags:
+          - SpringBoot
+          - Vue，微信小程序
           - ruoyi
           
-#footer 脚注，打印版和web版不同不显示
-footer: #脚注多组
-  print: #打印版markdown或者html
+
+footer: 
+  print:
   screen:
     - text: "简历脚注"
-    #   href: '/'
     - text: "更多个人信息请访问博客"
       href: "https://arrowsaul.top"
 
-#页面额外js脚本，如xx统计
 scripts:
-#- src: "assets/js/resume.js"
-#  defer: defer #可以设置defer或者sync异步加载
