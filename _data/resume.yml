@@ -30,6 +30,7 @@ main:
         duration: 2022 年 09 月 - 至今
         sub: 本科
         detail: 软件工程
+        detail: CET4，校级三等奖学金，校学科单项奖学金
   - type: skills
     name: 技能
     content:
@@ -141,6 +142,8 @@ main:
           - 旅游
       - title: MBTI：
         items: INTP - 逻辑学家
+      - title: 证书
+        items: CET4，校级三等奖学金，校学科单项奖学金 
       - title: 奖项
         detail:
          md: _data/prize.md 
