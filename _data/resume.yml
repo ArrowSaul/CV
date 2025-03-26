@@ -30,6 +30,8 @@ main:
         duration: 2022 年 09 月 - 至今
         sub: 本科
         detail: 软件工程
+      - title: 证书
+        detail: CET4，校级奖学金
   - type: skills
     name: 技能
     content:
@@ -65,6 +67,9 @@ main:
           2. 良好的专业英语文档和资料阅读和使用能力 <br> &nbsp; &numsp;
           3. 较强的信息检索能力，能够快速学习新技术与开发环境，适应不同项目需求 <br> &nbsp; &numsp;
           4. 一定的沟通表达能力，能够与不同技术背景的人交流技术问题和方案
+      - title: 奖项
+        detail:
+         md: _data/prize.md 
   # - type: experience
   #   name: 经历
   #   content:
@@ -146,9 +151,7 @@ main:
   #       items: INTP - 逻辑学家
   #     - title: 证书
   #       items: CET4，校级三等奖学金，校学科单项奖学金 
-  #     - title: 奖项
-  #       detail:
-  #        md: _data/prize.md 
+
 footer: 
   print:
   screen:
