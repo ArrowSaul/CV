@@ -37,10 +37,9 @@ main:
     content:
       - title: 软件技能
         detail:
-          1. 熟悉 Java 基础知识，了解JVM内存模型，类加载机制，垃圾回收机制 <br> &nbsp; &numsp;
-          2. 熟悉Java并发编程，JUC、ThreadLocal、锁，CAS、AQS，线程池池化技术。<br> &nbsp; &numsp;
-          2. 熟练 Redis，了解 Redis 数据结构、持久化机制、过期策略、IO模型、哨兵机制等 <br> &nbsp; &numsp;
-          3. 熟悉 MySQL 操作，熟悉事务原理，索引结构，存储引擎、锁机制、日志、MVCC等 <br> &nbsp; &numsp;
+          1. 熟悉 Java 基础知识，熟悉JVM内存模型，类加载机制，垃圾回收机制 <br> &nbsp; &numsp;
+          2. 熟悉 MySQL 操作，熟悉事务原理，索引结构，存储引擎、锁机制、日志、MVCC等 <br> &nbsp; &numsp;
+          3. 熟练 Redis，熟悉 Redis 数据结构、持久化机制、过期策略、IO模型、哨兵机制等 <br> &nbsp; &numsp;        
           4. 熟悉常见的设计模式，灵活应用在业务开发中，减少业务代码量，提高可读性 <br> &nbsp; &numsp;
           5. 熟悉网络相关知识，熟悉常见的 TCP，UDP，Http 等网络协议 <br> &nbsp; &numsp;
           6. 熟悉 Spring，SpringMVC，Mybatis，SpringBoot 等核心框架，理解基本原理，根据需求熟练开发业务接口 <br> &nbsp; &numsp;
