@@ -47,7 +47,7 @@ main:
           8. 了解 SpringCloud，理解分布式微服务基本理论，使用微服务组件 Nacos，Gateway，OpenFegin <br> &nbsp; &numsp;
           9. 了解 Docker，容器化部署微服务，基本操作命令，pull 拉取中间件进行搭建使用 <br> &nbsp; &numsp;
           10. 熟悉常用 Linux 命令，使用 CentOS，Ubuntu 等主流操作系统进行开发 <br> &nbsp; &numsp;
-          11. 熟练使用 Git 代码仓库工具，Maven 包管理工具，Postman 请求响应 json 工具，Swagger 接口 Ui 文档
+          11. 熟练使用 Git 代码仓库工具，Maven 包管理工具，Postman 请求响应 json 工具，Swagger 接口 Ui 文档 <br> &nbsp; &numsp;
           12. 熟悉HTML、CSS、JS前端三件套，了解Vue，Element组件库
       - title: 其他技能
         detail:
