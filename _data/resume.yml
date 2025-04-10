@@ -83,24 +83,33 @@ main:
     name: 项目经历
     content:
       - title: 智媒新闻推荐系统
-        duration: 3 个月
+        duration: 4 个月
         summary: 本项目为推荐高效新闻资讯平台，旨在为用户提供个性化的新闻阅读体验。项目采用前后端分离架构，分为自媒体端，用户端，管理端，后端使用 Spring Boot + Spring Cloud 微服务框架，使用 Kafka、Redis、Elasticsearch 等技术实现海量数据处理和实时推荐。
         detail:
-          md: _data/HM.md
+          md: _data/TT.md
         sub: 后端开发
         tags:
           - SpringCloud
           - Vue
-      - title: 碳效智控办公节能管家
-        duration: 6 个月
-        summary: 本项目为智慧建筑能效管理平台，旨在为企事业单位提供精准的碳足迹追踪与自动化节能调控服务。项目采用单体架构设计，后端基于Spring Boot构建系统，物联网设备接入平台与机器学习模型，通过RabbitMQ实现传感器数据的异步采集，利用Redis缓存动态碳效参数，为楼宇空调、照明、窗帘等设备提供智能启停策略，助力企业平均节能率提升。
+      - title: 生活优选服务平台
+        duration: 3 个月
+        summary: 本项目是一款用户点评和商户信息为主的生活服务平台，实现了商户点评、优惠券秒杀、好友关注和粉丝关注博主后，主动推送博主的相关评价等多个模块；用户可以浏览首页的推荐内容，搜索附近商家，查看商家的详情和评价以及发表探店评价。
         detail:
-          md: _data/IOT.md
+          md: _data/DP.md
         sub: 后端开发
         tags:
           - SpringBoot
-          - HarmonyOS
           - Vue
+      # - title: 碳效智控办公节能管家
+      #   duration: 3 个月
+      #   summary: 本项目为智慧建筑能效管理平台，旨在为企事业单位提供精准的碳足迹追踪与自动化节能调控服务。项目采用单体架构设计，后端基于Spring Boot构建系统，物联网设备接入平台与机器学习模型，通过RabbitMQ实现传感器数据的异步采集，利用Redis缓存动态碳效参数，为楼宇空调、照明、窗帘等设备提供智能启停策略，助力企业平均节能率提升。
+      #   detail:
+      #     md: _data/IOT.md
+      #   sub: 后端开发
+      #   tags:
+      #     - SpringBoot
+      #     - HarmonyOS
+      #     - Vue
   # - type: exercitation
   #   name: 实习经历
   #   content:
@@ -116,17 +125,6 @@ main:
   #         - 微信小程序
   #         - Ruoyi框架
       # - title: 广东延康科技有限公司实习项目：云e养城市智慧医养数字化服务平台
-      #   duration: 3 个月
-      #   summary: 云E养后台管理系统：帮助管理人员进行商品上架以及审核；用户，客服，商品，医疗信息管理。云e养小程序：旨在致力于为中老年人提供智能、高效、便捷的健康管理服务：健康监测服务，个性化营养方案定制。
-      #   detail:
-      #     md: _data/YEY.md
-      #   sub: 项目实习生
-      #   tags:
-      #     - SpringBoot
-      #     - Vue 
-      #     - 微信小程序
-      #     - Ruoyi框架
-      # - title: 浩鲸云计算科技股份有限公司实习项目：云e养城市智慧医养数字化服务平台
       #   duration: 3 个月
       #   summary: 云E养后台管理系统：帮助管理人员进行商品上架以及审核；用户，客服，商品，医疗信息管理。云e养小程序：旨在致力于为中老年人提供智能、高效、便捷的健康管理服务：健康监测服务，个性化营养方案定制。
       #   detail:
